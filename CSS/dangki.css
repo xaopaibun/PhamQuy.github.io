@@ -1,0 +1,101 @@
+*{
+	margin: 0;
+}
+.body{
+	width: 100%;
+	margin: auto;
+	height: auto;
+}
+span{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.body .top{
+	width: auto;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	padding-left: 8%;
+	background-color: white;
+}
+.body .top a{
+	color: black;
+	text-decoration: none;
+}
+.body .top a:hover{
+	color: green;
+}
+.body .bot{
+	width: 85%;
+	height: auto;
+	margin: 20px auto 20px auto;
+	background-color: white;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.body .bot .up a{
+	color: orange;
+	text-decoration: none;
+}
+.body .bot .up{
+	display: flex;
+	margin: auto;
+	width: 95%;
+}
+.body .bot .mid{
+	width: 95%;
+	height: auto;
+	display: flex;
+	margin: auto ;
+}
+.body .bot .mid .left{
+	width: 50%;
+}	
+.mid .left ul{
+	list-style: none;
+}
+.mid .left ul li{
+	width: 100%;
+	height: auto;
+	margin-top: 10px;
+}
+.mid .left ul li input{
+	width: 90%;
+	height: 25px;
+	padding: 8px;
+}
+.mid .left ul li{
+	display: flex;
+}
+.mid .right{
+	margin-top: 55px;
+	width: 50%;
+}
+.mid .right button{
+	width: 250px;
+	height: 30px;
+}
+.bot .down{
+	width: 95%;
+	margin: auto;
+}
+.bot .down button{
+	width: 100px;
+	height: 40px;
+	background-color: orange;
+	margin-right: 10px;
+	border: none;
+	color: white;
+	font-size: 20px;
+}
+.bot .down button:hover{
+	color: yellow;
+}
+
+.right button{
+	width: 50%;
+	height: 35px;
+	margin: 10px auto 0px auto;
+	border-style: none;
+	display: block;
+}

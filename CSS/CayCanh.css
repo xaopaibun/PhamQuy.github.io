@@ -1,0 +1,491 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    /* background: linear-gradient(90deg, gray 0%, yellow 100%); */
+    background-color: #EEE;
+}
+
+
+
+/* Khoi header Chá»©a Logo */
+.TopHeader{
+    background-color: #ddd;
+    width: 100%;
+    height: 40px;
+    position: sticky;
+    top:0;
+    left: 0;
+    z-index: 100;
+}
+.TopHeader .Container{
+    width: 85%;
+    height: 100%;
+    margin: auto;
+}
+.TopHeader a{
+    text-decoration: none;
+    color: #005d04;
+    font-weight: 600;
+    font-size: 15px;
+}
+.TopHeader a:hover{
+    color: black;
+    
+}
+.TopHeader ul{
+    list-style: none;
+    float: right;
+    display: flex;
+    padding: 5px 5px;
+}
+.TopHeader ul li{
+    padding: 5px 0 5px 18px;
+    text-transform: uppercase ;
+}
+.Hotline{
+    padding: 11px;
+    float: left;
+}
+.Hotline i{
+    color: red;
+}
+.GioHang{
+    float: right;
+    background: #F28902;
+    color: #FFF;
+    padding: 11px 10px;
+    margin-left: 15px;
+    font-size: 11px;
+}
+.GioHang a {
+    color: white;
+    padding-left: 4px;
+}
+.GioHang a i{
+    margin-right: 5px;
+
+}
+/* 
+het top header */
+/* // Khoi Header */
+.Header{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+}
+.Container{
+    width: 85%;
+    height: 100%;
+    margin: auto;
+}
+.Header .Container a{
+    /* padding: 10px 10px 10px 0; */
+    float: left;
+}
+.Header .Container .widget-head{
+    float: left;
+    font-size: 20px;
+    color: #090;
+    margin-top: 20px;
+    
+}
+
+.Header .Container .widget-head span{
+    font-size: 25px;
+    font-weight: bold;
+    color: #FF8000;
+    float: left;
+    margin-top: 10px;
+}
+.TimKiem{
+    width: 300px;
+    float: right;
+    margin-top: 30px;
+}
+.TimKiem #TimKiem{
+    border: 1px solid #CCC;
+    border-bottom-width: 2px;
+    border-right: none;
+    padding: 10px 10px;
+    width: calc(100% - 100px);
+    float: left;
+    border-radius: 5px 0 0 5px;
+}
+.TimKiem input[type="button"]{
+    width: 79px;
+    height: 38px;
+    background-color: #a7f54b;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+.TimKiem input[type="button"]:hover{
+    background-color: #427900;
+}
+/* Het Khá»‘i Header Chá»©a Logo */
+
+
+
+
+/* Khoi Can Giua Man Hinh */
+.CanGiua{
+    width: 85%;
+    height: auto;
+    margin: auto;
+}
+.CanGiua._1{
+    background-color: white;
+    margin-bottom: 30px;
+}
+
+/* KhoiMenu */
+.khoimenuc1 {
+    background-color: #3daa12;
+    width: 100%;
+    height: auto;
+    position: sticky;
+    top:40px;
+    left: 0;
+    z-index: 100;
+}
+.khoimenuc1 .menu {
+    display: flex;
+    width: 85%;
+    margin: auto;
+    height: 100%;
+}
+.khoimenuc1 .menu > li{
+    list-style: none;
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+}
+.khoimenuc1 .menu li  > a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    display: inline-block;
+    padding: 17px 16px;
+    color: white;
+    
+}
+.khoimenuc1 .menu li:hover .menuc2{
+    
+    display: block;
+}
+.khoimenuc1 .menu li > a:hover{
+    background-color: rgb(15, 97, 15);
+}
+.khoimenuc1 .menu .menuc2 .item2 a:hover{
+    background-color: #2b8807;
+}
+
+ .khoimenuc1 .menu .menuc2{
+    position: absolute;
+    display: none;
+    top:50px;
+    left: 0px;
+    z-index: 199;
+}
+.khoimenuc1 .menu .menuc2 .item2{
+    list-style:none ;
+}
+.khoimenuc1 .menu .menuc2 .item2 a{
+    
+    background-color: #3daa12;
+    border-bottom: 1px solid rgba(150, 150, 150, 0.15);
+    padding: 9px 15px;
+    width: 165px;
+    font-size: 13px;
+    text-decoration: none;
+    color: #FFF;
+    font-weight: 400;
+    text-align: left;
+}
+/* Het Khoi Menu */
+
+.CanGiua .ConTent{
+    width: 100%;
+    height: 200px;
+    padding: 20px;
+    line-height: 30px;
+    font-size: 14px;
+}
+.CanGiua._1 .ConTent h1{
+    color: #005d04;
+    padding-bottom: 10px;
+    border-bottom: 1px solid gray;
+}
+.CanGiua._1 .ConTent ul{
+    padding-left: 20px;
+}
+.CanGiua._1 .KhoiSanPham{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+
+
+.head{
+    background-color: white;
+    width: 100%;
+    height: auto;
+    font-size: 14px;
+    padding: 15px 0;
+    margin-bottom: 20px;
+    
+}
+.head a{
+    text-decoration: none;
+    color: rgb(51, 51, 51);
+}
+.head a:hover{
+    color: #3daa12;
+}
+.head a::after{
+    content: "\f101";
+    font-family: 'FontAwesome';
+    color: #04476d;
+    padding-left: 5px;
+}
+/* Khoi Noi Dung Phai */
+
+.KhoiSanPham{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    overflow: hidden;
+}
+.KhoiSanPham .KhoiNho{
+    width: 23%;
+    height: 360px;
+    margin-bottom: 15px;
+    opacity: 0;
+}
+.KhoiSanPham .KhoiNho:hover{
+   
+    box-shadow: 1px 1px 3px 3px #100e0e;
+
+}
+
+.KhoiNho .KhoiAnh{
+    overflow: hidden;
+    perspective: 800px;
+    background-color: white;
+}
+.KhoiSanPham.HienRa .KhoiNho{
+    animation: DiTuDuoiLen 2s forwards;
+}
+.KhoiSanPham.HienRa .KhoiNho:nth-child(1){
+    animation-delay: 0.1s;
+}
+.KhoiSanPham.HienRa .KhoiNho:nth-child(2){
+    animation-delay: 0.3s;
+}
+.KhoiSanPham.HienRa .KhoiNho:nth-child(3){
+    animation-delay: 0.6s;
+}
+.KhoiSanPham.HienRa .KhoiNho:nth-child(4){
+    animation-delay: 0.9s;
+}
+.KhoiSanPham.HienRa .KhoiNho:nth-child(5){
+    animation-delay: 1.2s;
+}
+.KhoiSanPham.HienRa .KhoiNho:nth-child(6){
+    animation-delay: 1.5s;
+}
+.KhoiSanPham.HienRa .KhoiNho:nth-child(7){
+    animation-delay: 1.8s;
+}
+.KhoiSanPham.HienRa .KhoiNho:nth-child(8){
+    animation-delay: 2s;
+}
+.KhoiSanPham.HienRa .KhoiNho:nth-child(9){
+    animation-delay: 2.2s;
+}
+.KhoiSanPham.HienRa .KhoiNho:nth-child(10){
+    animation-delay: 2.4s;
+}
+.KhoiSanPham.HienRa .KhoiNho:nth-child(11){
+    animation-delay: 2.6s;
+}
+.KhoiSanPham.HienRa .KhoiNho:nth-child(12){
+    animation-delay: 2.8s;
+}
+
+.KhoiNho .KhoiAnh img:hover{
+    transform: scale(1.2) rotateZ(360deg) rotateY(360deg) rotateX(360deg);
+    transition: 2s ease;
+    transition-delay: 0.3s;
+    
+}
+@-webkit-keyframes DiTuDuoiLen{
+    0%{
+        transform: translateY(600px)rotateZ(0);
+        opacity: 0;
+        
+    }
+    100%{
+        transform: translateY(0px) rotateZ(360deg);
+        opacity: 1;
+        
+    }
+}
+
+.KhoiText{
+    background-color: white;
+    height: 80px;
+    width: 100%;
+}
+.KhoiText a{
+    text-decoration: none;
+    color: black;
+    padding-left: 15px;
+    font-size: 15px;
+}
+.KhoiText a:hover{
+    color: #f28902;
+}
+.KhoiText .Gia{
+    color: #F00;
+    font-size: 18px;
+    width: calc(100% - 102px);
+    float: left;
+    padding: 10px 0 0 10px;
+    height: 50px;
+}
+.MuaHang a{
+    width: 42px;
+    background: #F28902;
+    color: #FFF;
+    float: left;
+    text-align: center;
+    margin: 10px 0 0 4px;
+    padding: 6px 0;
+}
+.MuaHang a:hover{
+    color: white;
+    background-color: green;
+}
+
+/* Het Khoi NOI Dung Phai */
+
+
+
+
+
+/* Nut Back To Top */
+.BackToTop{
+    position: fixed;
+    right: 15px;
+    bottom: 5px;
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    opacity: 0.8;
+    opacity: 0;
+}
+.BackToTop i{
+    padding: 10px 17px;
+    font-size: 35px;
+    animation: NhayLenCao 1s forwards infinite;
+}
+@-webkit-keyframes NhayLenCao{
+    0%{
+        transform: translateY(3px);
+    }
+    100%{
+        transform: translateY(-8px);
+    }
+}
+
+/* Het NUt BackToTop */
+
+
+
+
+
+/* Div Footer */
+.Footer{
+    background-color: white;
+    width: 100%;
+    height: 370px;
+    color: black;
+    padding-top: 25px;
+}
+.Footer .Container{
+    display: flex;
+    overflow: hidden;
+}
+.Footer .Container ._Cot{
+    width: 33.3%;
+    height: 100%;
+}
+.Footer .Container ._Cot h2{
+   
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.Footer .Container ._Cot img{
+    float: left;
+}
+.Footer .Container ._Cot span{
+    line-height: 1.6;
+}
+.Footer .Container ._Cot ul{
+    margin-left: 20px;
+}
+.Footer .Container ._Cot ul li{
+    line-height: 30px;
+}
+.Footer .Container ._Cot ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+.Footer .Container ._Cot ul li a:hover{
+    color: #005d04;
+}
+
+
+
+/* DIV COPPYRIGHT */
+.Copyright{
+    padding-top: 25px;
+    height: 50px;
+    color: white;
+    background-color: black;
+}
+
+.Show{
+    animation: Show 3s forwards;
+}
+@-webkit-keyframes Show{
+    0%{
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(-25px);
+    }
+}
+
+.Green{
+    background-color: #277309;
+}
+.White{
+    background-color: white;
+}
